@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/spacing_horizontal"
+    android:layout_marginEnd="@dimen/spacing_horizontal"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="5dp"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_gender"
+            android:drawablePadding="6dp"
+            android:gravity="center_vertical"
+            tools:text="Male"
+            />
+
+        <TextView
+            android:id="@+id/countries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_country"
+            android:drawablePadding="6dp"
+            android:gravity="center_vertical"
+            tools:text="Nigeria, Mali, Rwanda"
+            />
+
+        <TextView
+            android:id="@+id/colors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="@color/colorBlack"
+            android:drawableStart="@drawable/ic_colors"
+            android:drawablePadding="6dp"
+            android:gravity="center_vertical"
+            tools:text="Blue, Purple, Green"
+            />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
