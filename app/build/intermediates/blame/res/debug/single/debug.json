@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
         "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
@@ -40,16 +40,8 @@
         "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_loader.xml.flat",
-        "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\src\\main\\res\\layout\\item_loader.xml"
-    },
-    {
         "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_foreground.png"
-    },
-    {
-        "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
-        "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\src\\main\\res\\layout\\fragment_second.xml"
     },
     {
         "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -62,6 +54,10 @@
     {
         "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\layout_filter_list.xml.flat",
+        "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\src\\main\\res\\layout\\filter_list.xml"
     },
     {
         "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_empty.xml.flat",
@@ -116,6 +112,10 @@
         "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\src\\main\\res\\layout\\item_filter.xml"
     },
     {
+        "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\drawable_error_empty.jpeg.flat",
+        "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\src\\main\\res\\drawable\\error_empty.jpeg"
+    },
+    {
         "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_name.xml.flat",
         "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\src\\main\\res\\drawable\\ic_name.xml"
     },
@@ -130,10 +130,6 @@
     {
         "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_foreground.png"
-    },
-    {
-        "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
-        "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\src\\main\\res\\layout\\fragment_first.xml"
     },
     {
         "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_car.xml.flat",
@@ -160,15 +156,15 @@
         "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\src\\main\\res\\drawable\\ic_colors.xml"
     },
     {
-        "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_empty_state.xml.flat",
-        "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\src\\main\\res\\layout\\item_empty_state.xml"
-    },
-    {
         "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_work.xml.flat",
         "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\src\\main\\res\\drawable\\ic_work.xml"
     },
     {
         "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\res\\merged\\debug\\layout_car_owners_details.xml.flat",
+        "source": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\src\\main\\res\\layout\\car_owners_details.xml"
     }
 ]

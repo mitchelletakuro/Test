@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.databinding:databinding-adapters:4.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\8efa69dcbe87a3a2e572e4c28e463637\databinding-adapters-4.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\1cad1a5718a7b382847c06606e6f005c\databinding-runtime-4.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\c48c2d9f128697be35f266c1221b6d6c\jetified-core-ktx-1.1.0\AndroidManifest.xml:2:1-9:12
@@ -49,25 +49,33 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Windows 10\.grad
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\c20b3a9c01fac1c58487516ff423d6b0\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\68a64a089b7f098f26bb791f76de8be0\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\24d5b49fe2b36ef44f901a0f8118cef3\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:3:5-50
 		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:8:5-25:19
 MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\251b04328a9b52036fa2ce9c7b557d3b\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:7:5-20
 MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\251b04328a9b52036fa2ce9c7b557d3b\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\3cbf517ba7e3687c73b950c88e49ed8a\material-1.1.0\AndroidManifest.xml:22:5-20
@@ -83,35 +91,35 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Wi
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\173f9208ffbdf9865c01df7b01988e09\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.mitchelletakuro.takurogbemisola.views.MainActivity
-ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:12:9-21:20
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.mitchelletakuro.takurogbemisola.view.MainActivity
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:15:9-24:20
 	android:label
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:14:13-45
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:17:13-45
 	android:theme
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:15:13-56
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:18:13-56
 	android:name
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:13:13-47
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:16:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml

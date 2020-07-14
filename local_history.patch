@@ -1,0 +1,26 @@
+Index: app/src/main/java/com/mitchelletakuro/takurogbemisola/di/Injection.kt
+===================================================================
+--- app/src/main/java/com/mitchelletakuro/takurogbemisola/di/Injection.kt	(date 0)
++++ app/src/main/java/com/mitchelletakuro/takurogbemisola/di/Injection.kt	(date 0)
+@@ -1,20 +0,0 @@
+-package com.mitchelletakuro.takurogbemisola.di
+-
+-import androidx.lifecycle.ViewModelProvider
+-import com.mitchelletakuro.takurogbemisola.model.MuseumDataSource
+-import com.emedinaa.kotlinmvvm.model.MuseumRepository
+-import com.emedinaa.kotlinmvvm.viewmodel.ViewModelFactory
+-
+-object Injection {
+-
+-    private val museumDataSource:MuseumDataSource = MuseumRepository()
+-    private val museumViewModelFactory = ViewModelFactory(museumDataSource)
+-
+-    fun providerRepository():MuseumDataSource{
+-        return museumDataSource
+-    }
+-
+-    fun provideViewModelFactory(): ViewModelProvider.Factory{
+-        return museumViewModelFactory
+-    }
+-}
+\ No newline at end of file

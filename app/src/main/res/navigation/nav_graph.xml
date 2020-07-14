@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/filterListFragment">
+
+
+    <fragment
+        android:id="@+id/filterListFragment"
+        android:name="com.mitchelletakuro.takurogbemisola.view.ui.filters.FilterListFragment"
+        android:label="FilterList"
+        tools:layout="@layout/filter_list"/>
+    <action
+        android:id="@+id/action_filterListFragment_to_CarOwnerDetailsFragment"
+        app:destination="@id/carOwnerDetailsFragment"/>
+
+    <fragment
+        android:id="@+id/carOwnerDetailsFragment"
+        android:name="com.mitchelletakuro.takurogbemisola.view.ui.car_owners.CarOwnerDetailsFragment"
+        android:label="Car Owners Details"
+        tools:layout="@layout/car_owners_details"/>
+    <action
+        android:id="@+id/action_carOwnerDetailsFragment_to_FilterFragment"
+        app:destination="@id/filterListFragment"
+        app:popUpTo="@id/filterListFragment"/>
+</navigation>
