@@ -1,13 +1,14 @@
 package com.mitchelletakuro.takurogbemisola.di
 
 import com.mitchelletakuro.takurogbemisola.data.network.CarOwnersInterface
-import com.mitchelletakuro.takurogbemisola.data.network.FilterInterface
+import com.mitchelletakuro.takurogbemisola.data.network.JsonPostsApi
 import com.mitchelletakuro.takurogbemisola.utils.Constants
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import java.security.Provider
 import java.util.concurrent.TimeUnit
 
 
@@ -15,9 +16,9 @@ import java.util.concurrent.TimeUnit
 val appComponent = module {
     factory { getHttpLoggingInterceptor() }
     factory { provideOkHttpClient(get()) }
-    single { provideRetrofit() }
-    single { provideFilterService(get()) }
     single { provideCarOwnerService(get()) }
+    single { ProvideRetrofit(get()) }
+    single { provideApiService(get()) }
 }
 
 
@@ -29,19 +30,31 @@ fun provideCarOwnerService(retrofit: Retrofit.Builder):CarOwnersInterface {
 
 
 
-fun provideFilterService(retrofit: Retrofit.Builder): FilterInterface {
-    return retrofit.baseUrl(Constants.BASE_URL)
-        .build()
-        .create(FilterInterface::class.java)
+//fun provideFilterService(retrofit: Retrofit.Builder): FilterInterface {
+//    return retrofit.baseUrl(Constants.BASE_URL)
+//        .build()
+//        .create(FilterInterface::class.java)
+//
+//}
 
-}
+private fun provideApiService(retrofit: Retrofit): JsonPostsApi = retrofit.create(JsonPostsApi::class.java)
 
-fun provideRetrofit():Retrofit {
-    return Retrofit.Builder()
-        .client(provideOkHttpClient(getHttpLoggingInterceptor()))
-        .addConverterFactory(GsonConverterFactory.create())
-        .build()
-}
+private fun ProvideRetrofit(
+        okHttpClient: OkHttpClient
+): Retrofit =
+        Retrofit.Builder()
+            .addConverterFactory(GsonConverterFactory.create())
+            .baseUrl("https://jsonplaceholder.typicode.com/")
+            .client(okHttpClient)
+            .build()
+
+
+//fun provideRetrofit():Retrofit {
+//    return Retrofit.Builder()
+//        .client(provideOkHttpClient(getHttpLoggingInterceptor()))
+//        .addConverterFactory(GsonConverterFactory.create())
+//        .build()
+//}
 
 fun provideOkHttpClient(httpLoggingInterceptor: HttpLoggingInterceptor): OkHttpClient {
     return OkHttpClient.Builder()
