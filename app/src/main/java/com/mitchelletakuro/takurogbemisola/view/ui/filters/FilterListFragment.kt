@@ -35,7 +35,7 @@ class FilterListFragment : Fragment() {
 //        call to fetch data
 //        viewModel.getFilter()
 
-        viewModel.getPosts()
+        viewModel.getJson()
 
         setUpObservers()
 
@@ -58,6 +58,13 @@ class FilterListFragment : Fragment() {
         viewModel.postList.observe(viewLifecycleOwner, Observer{
             it?.let {
                 Timber.e(it[0].toString())
+//                show/display the list as you deem fit
+            }
+        })
+
+        viewModel.fiterList.observe(viewLifecycleOwner, Observer{
+            it?.let {
+                Log.e("frrrrr", it[0].toString())
 //                show/display the list as you deem fit
             }
         })
