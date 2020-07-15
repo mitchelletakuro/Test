@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\In Progress\\TakuroGbemisola\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-el\\values-el.xml",
+            "outputFile": "C:\\Users\\Windows 10\\Documents\\AndroidStudioProjects\\TakuroGbemisola-CarFilter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-el\\values-el.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Windows 10\\.gradle\\caches\\transforms-2\\files-2.1\\e46f3e16fd8948e8e4c48c913cb404d3\\appcompat-1.1.0\\res\\values-el\\values-el.xml",

@@ -21,23 +21,13 @@
 
 
         <TextView
-            android:id="@+id/first_name"
+            android:id="@+id/name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="Gbemisola"/>
-
-        <TextView
-            android:id="@+id/last_name"
-            android:layout_width="0dp"
-            android:textStyle="bold"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            app:layout_constraintStart_toEndOf="@id/first_name"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:text="Takuro" />
+            tools:text="Gbemisola Takuro"/>
 
         <View
             android:id="@+id/top_divider"
@@ -47,7 +37,7 @@
             android:background="@color/coolGrey"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/first_name" />
+            app:layout_constraintTop_toBottomOf="@id/name" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/vertical_guideline"

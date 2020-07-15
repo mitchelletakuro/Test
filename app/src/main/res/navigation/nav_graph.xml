@@ -10,10 +10,11 @@
         android:id="@+id/filterListFragment"
         android:name="com.mitchelletakuro.takurogbemisola.view.ui.filters.FilterListFragment"
         android:label="FilterList"
-        tools:layout="@layout/filter_list"/>
-    <action
-        android:id="@+id/action_filterListFragment_to_CarOwnerDetailsFragment"
-        app:destination="@id/carOwnerDetailsFragment"/>
+        tools:layout="@layout/filter_list">
+        <action
+            android:id="@+id/action_filterListFragment_to_carOwnerDetailsFragment"
+            app:destination="@id/carOwnerDetailsFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/carOwnerDetailsFragment"

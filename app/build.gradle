@@ -68,9 +68,6 @@ dependencies {
     implementation "org.koin:koin-androidx-scope:$koin_version"
 
 
-    //csv parser
-    implementation 'com.univocity:univocity-parsers:2.1.1'
-
     // debugging
     implementation "com.jakewharton.timber:timber:4.7.1"
 

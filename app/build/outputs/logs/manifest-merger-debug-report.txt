@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.databinding:databinding-adapters:4.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\8efa69dcbe87a3a2e572e4c28e463637\databinding-adapters-4.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\1cad1a5718a7b382847c06606e6f005c\databinding-runtime-4.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\c48c2d9f128697be35f266c1221b6d6c\jetified-core-ktx-1.1.0\AndroidManifest.xml:2:1-9:12
@@ -13,8 +13,10 @@ MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] C:\Users\Windows 
 MERGED from [androidx.fragment:fragment-ktx:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\f400fe76c70e71073a227fb5980e8a3a\jetified-fragment-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\d74f4f86de4e9ccb4429355be1e1ac21\jetified-activity-ktx-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\51ec66680c91a3611a77723b4652090e\jetified-lifecycle-viewmodel-ktx-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\251b04328a9b52036fa2ce9c7b557d3b\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:2:1-9:12
-MERGED from [org.koin:koin-android:2.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\55db3f75d2c511ea66dcb76f9ee45daf\jetified-koin-android-2.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [org.koin:koin-androidx-scope:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a97a78ec93c0183e35771e93b3f0913f\jetified-koin-androidx-scope-2.1.6\AndroidManifest.xml:2:1-9:12
+MERGED from [org.koin:koin-android-viewmodel:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\0ca2431476af82f2e4f278505c9801a2\jetified-koin-android-viewmodel-2.1.6\AndroidManifest.xml:2:1-9:12
+MERGED from [org.koin:koin-android-scope:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\88ba49351fab2d6c6dfe4f633529e7c9\jetified-koin-android-scope-2.1.6\AndroidManifest.xml:2:1-9:12
+MERGED from [org.koin:koin-android:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\3836cb7f9218e5ba8ecba12843f06e54\jetified-koin-android-2.1.6\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\2ea7bfc157f9d367247a1a28daff62f1\navigation-common-ktx-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\1af09a3dff9994ce79b53a1d41e43f64\navigation-ui-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\3cbf517ba7e3687c73b950c88e49ed8a\material-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -24,6 +26,7 @@ MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Windows 10\.gradle\ca
 MERGED from [androidx.databinding:viewbinding:4.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\2bfca14b65453372c82ced49ab95653e\jetified-viewbinding-4.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\0dcc16b5dc73a1cc0cf5eba175827f08\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\afe9b9f0a572b03daccc89d02bd5cd11\navigation-fragment-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\d7a23ec1f16678e42acfbb351d08e5da\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\7619667f73099691456e81e3fedf8086\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\8bdc78f309f7ef2e274359e8a4f096da\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\f66fa33308b0619d349f33f29e1b9234\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -39,91 +42,103 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Windows 10\.grad
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\4bf5efb9c6ca1cc1042b4ed281aac9d8\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\85a505a1ce02772d85e4ecde7157bebc\navigation-common-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\173f9208ffbdf9865c01df7b01988e09\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\5c7cdf17db77e6fa1e235092fe85ccd9\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\7d82f9c0eac238fb179a058be52f0248\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\8164904e8dbba255593df041e8bd30ea\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b741faf0c0e978004788a3922a8a438d\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b37b2aeed146cfc3b1274c4cf21d4028\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\c97b0db2e77adb45592bee740aa5d495\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\59c8a6e28f96474652a981d6333afcdf\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\3a332f7b3ba12f0d97b1eff5486f8fcf\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\32691ed1dd96a709bdd6754d66b7ebfd\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\c20b3a9c01fac1c58487516ff423d6b0\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\68a64a089b7f098f26bb791f76de8be0\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\59c8a6e28f96474652a981d6333afcdf\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\24d5b49fe2b36ef44f901a0f8118cef3\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\32691ed1dd96a709bdd6754d66b7ebfd\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:3:5-50
-		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:5:5-78
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:5:5-78
 	android:name
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:8:5-25:19
-MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\251b04328a9b52036fa2ce9c7b557d3b\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:7:5-20
-MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\251b04328a9b52036fa2ce9c7b557d3b\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:7:5-20
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:8:5-26:19
+MERGED from [org.koin:koin-androidx-scope:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a97a78ec93c0183e35771e93b3f0913f\jetified-koin-androidx-scope-2.1.6\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-scope:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a97a78ec93c0183e35771e93b3f0913f\jetified-koin-androidx-scope-2.1.6\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-viewmodel:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\0ca2431476af82f2e4f278505c9801a2\jetified-koin-android-viewmodel-2.1.6\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-viewmodel:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\0ca2431476af82f2e4f278505c9801a2\jetified-koin-android-viewmodel-2.1.6\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-scope:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\88ba49351fab2d6c6dfe4f633529e7c9\jetified-koin-android-scope-2.1.6\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-android-scope:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\88ba49351fab2d6c6dfe4f633529e7c9\jetified-koin-android-scope-2.1.6\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\3cbf517ba7e3687c73b950c88e49ed8a\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\3cbf517ba7e3687c73b950c88e49ed8a\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\0686ca90b872620e1e93c4a9f2d2181e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\0686ca90b872620e1e93c4a9f2d2181e\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\59bc7880808e913c382684838b97c382\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
 MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\59bc7880808e913c382684838b97c382\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\d7a23ec1f16678e42acfbb351d08e5da\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\d7a23ec1f16678e42acfbb351d08e5da\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.core:core:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\173f9208ffbdf9865c01df7b01988e09\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\173f9208ffbdf9865c01df7b01988e09\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\5c7cdf17db77e6fa1e235092fe85ccd9\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\5c7cdf17db77e6fa1e235092fe85ccd9\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b741faf0c0e978004788a3922a8a438d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b741faf0c0e978004788a3922a8a438d\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\173f9208ffbdf9865c01df7b01988e09\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:14:9-40
-activity#com.mitchelletakuro.takurogbemisola.view.MainActivity
-ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:15:9-24:20
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:9:9-40
+activity#com.mitchelletakuro.takurogbemisola.MainActivity
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:16:9-25:20
 	android:label
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:17:13-45
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:18:13-45
 	android:theme
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:18:13-56
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:19:13-56
 	android:name
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:16:13-46
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:databinding-adapters:4.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\8efa69dcbe87a3a2e572e4c28e463637\databinding-adapters-4.0.0\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-adapters:4.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\8efa69dcbe87a3a2e572e4c28e463637\databinding-adapters-4.0.0\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:4.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\1cad1a5718a7b382847c06606e6f005c\databinding-runtime-4.0.0\AndroidManifest.xml:22:5-44
@@ -142,10 +157,14 @@ MERGED from [androidx.activity:activity-ktx:1.0.0] C:\Users\Windows 10\.gradle\c
 MERGED from [androidx.activity:activity-ktx:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\d74f4f86de4e9ccb4429355be1e1ac21\jetified-activity-ktx-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\51ec66680c91a3611a77723b4652090e\jetified-lifecycle-viewmodel-ktx-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\51ec66680c91a3611a77723b4652090e\jetified-lifecycle-viewmodel-ktx-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\251b04328a9b52036fa2ce9c7b557d3b\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:5:5-44
-MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\251b04328a9b52036fa2ce9c7b557d3b\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:5:5-44
-MERGED from [org.koin:koin-android:2.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\55db3f75d2c511ea66dcb76f9ee45daf\jetified-koin-android-2.0.1\AndroidManifest.xml:5:5-44
-MERGED from [org.koin:koin-android:2.0.1] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\55db3f75d2c511ea66dcb76f9ee45daf\jetified-koin-android-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-scope:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a97a78ec93c0183e35771e93b3f0913f\jetified-koin-androidx-scope-2.1.6\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-scope:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\a97a78ec93c0183e35771e93b3f0913f\jetified-koin-androidx-scope-2.1.6\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-viewmodel:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\0ca2431476af82f2e4f278505c9801a2\jetified-koin-android-viewmodel-2.1.6\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-viewmodel:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\0ca2431476af82f2e4f278505c9801a2\jetified-koin-android-viewmodel-2.1.6\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-scope:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\88ba49351fab2d6c6dfe4f633529e7c9\jetified-koin-android-scope-2.1.6\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android-scope:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\88ba49351fab2d6c6dfe4f633529e7c9\jetified-koin-android-scope-2.1.6\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\3836cb7f9218e5ba8ecba12843f06e54\jetified-koin-android-2.1.6\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android:2.1.6] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\3836cb7f9218e5ba8ecba12843f06e54\jetified-koin-android-2.1.6\AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\2ea7bfc157f9d367247a1a28daff62f1\navigation-common-ktx-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\2ea7bfc157f9d367247a1a28daff62f1\navigation-common-ktx-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\1af09a3dff9994ce79b53a1d41e43f64\navigation-ui-2.1.0\AndroidManifest.xml:20:5-22:41
@@ -164,6 +183,8 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Windows 10\.gradle\c
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\0dcc16b5dc73a1cc0cf5eba175827f08\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\afe9b9f0a572b03daccc89d02bd5cd11\navigation-fragment-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\afe9b9f0a572b03daccc89d02bd5cd11\navigation-fragment-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\d7a23ec1f16678e42acfbb351d08e5da\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\d7a23ec1f16678e42acfbb351d08e5da\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\7619667f73099691456e81e3fedf8086\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\7619667f73099691456e81e3fedf8086\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\8bdc78f309f7ef2e274359e8a4f096da\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -194,6 +215,10 @@ MERGED from [androidx.navigation:navigation-common:2.1.0] C:\Users\Windows 10\.g
 MERGED from [androidx.navigation:navigation-common:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\85a505a1ce02772d85e4ecde7157bebc\navigation-common-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\173f9208ffbdf9865c01df7b01988e09\core-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\173f9208ffbdf9865c01df7b01988e09\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\5c7cdf17db77e6fa1e235092fe85ccd9\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\5c7cdf17db77e6fa1e235092fe85ccd9\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\7d82f9c0eac238fb179a058be52f0248\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\7d82f9c0eac238fb179a058be52f0248\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\8164904e8dbba255593df041e8bd30ea\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\8164904e8dbba255593df041e8bd30ea\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b741faf0c0e978004788a3922a8a438d\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -202,25 +227,35 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Windows 10\.gr
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\b37b2aeed146cfc3b1274c4cf21d4028\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\c97b0db2e77adb45592bee740aa5d495\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\c97b0db2e77adb45592bee740aa5d495\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\59c8a6e28f96474652a981d6333afcdf\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\59c8a6e28f96474652a981d6333afcdf\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\3a332f7b3ba12f0d97b1eff5486f8fcf\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\3a332f7b3ba12f0d97b1eff5486f8fcf\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\32691ed1dd96a709bdd6754d66b7ebfd\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\32691ed1dd96a709bdd6754d66b7ebfd\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\c20b3a9c01fac1c58487516ff423d6b0\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\c20b3a9c01fac1c58487516ff423d6b0\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\68a64a089b7f098f26bb791f76de8be0\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\68a64a089b7f098f26bb791f76de8be0\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\59c8a6e28f96474652a981d6333afcdf\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\59c8a6e28f96474652a981d6333afcdf\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\24d5b49fe2b36ef44f901a0f8118cef3\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\24d5b49fe2b36ef44f901a0f8118cef3\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\32691ed1dd96a709bdd6754d66b7ebfd\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\32691ed1dd96a709bdd6754d66b7ebfd\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\In Progress\TakuroGbemisola\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Windows 10\Documents\AndroidStudioProjects\TakuroGbemisola-CarFilter\app\src\main\AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\5c7cdf17db77e6fa1e235092fe85ccd9\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\5c7cdf17db77e6fa1e235092fe85ccd9\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\5c7cdf17db77e6fa1e235092fe85ccd9\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\5c7cdf17db77e6fa1e235092fe85ccd9\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Windows 10\.gradle\caches\transforms-2\files-2.1\5c7cdf17db77e6fa1e235092fe85ccd9\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79

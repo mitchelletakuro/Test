@@ -1,27 +1,24 @@
 package com.mitchelletakuro.takurogbemisola.di
 
+import com.mitchelletakuro.takurogbemisola.view.ui.car_owners.CarOwnerViewModel
 import com.mitchelletakuro.takurogbemisola.view.ui.filters.FilterViewModel
 import org.koin.dsl.module
 import org.koin.android.viewmodel.dsl.viewModel
 
-/**
- * Created by manuelchris-ogar on 14/07/2020.
- */
-val viewModelModule = module {
-
-    viewModel {
-        FilterViewModel(get())
-    }
-
-
-//     you can add other view models by adding new scopes,
-//    add get() to cover any dependency
+//
+//val viewModelModule = module {
+//
 //    viewModel {
-//        AnotherViewModel(get())
+//        FilterViewModel(get())
 //    }
-
-
-
-
-
-}
+//
+//    viewModel {
+//        CarOwnerViewModel(get())
+//    }
+//
+//
+//
+//
+//
+//
+//}

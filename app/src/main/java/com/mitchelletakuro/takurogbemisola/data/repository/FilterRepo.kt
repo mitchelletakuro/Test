@@ -1,12 +1,12 @@
 package com.mitchelletakuro.takurogbemisola.data.repository
 
-import com.mitchelletakuro.takurogbemisola.data.models.Filter
-import com.mitchelletakuro.takurogbemisola.data.network.FilterInterface
-import com.mitchelletakuro.takurogbemisola.data.network.JsonPostsApi
+import com.mitchelletakuro.takurogbemisola.data.models.FilterModel
+import com.mitchelletakuro.takurogbemisola.data.network.JsonFilterApi
 
 
-class FilterRepo( private val postsApi:JsonPostsApi) {
-    suspend fun fetchPosts() = postsApi.getPosts()
+class FilterRepo( private val filterApi:JsonFilterApi) {
+    suspend fun fetchPosts():List<FilterModel> = filterApi.getPosts()
+
 
 }
 

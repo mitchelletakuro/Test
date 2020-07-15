@@ -1,14 +1,13 @@
 package com.mitchelletakuro.takurogbemisola.di
 
 import com.mitchelletakuro.takurogbemisola.data.network.CarOwnersInterface
-import com.mitchelletakuro.takurogbemisola.data.network.JsonPostsApi
+import com.mitchelletakuro.takurogbemisola.data.network.JsonFilterApi
 import com.mitchelletakuro.takurogbemisola.utils.Constants
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import java.security.Provider
 import java.util.concurrent.TimeUnit
 
 
@@ -37,7 +36,7 @@ fun provideCarOwnerService(retrofit: Retrofit.Builder):CarOwnersInterface {
 //
 //}
 
-private fun provideApiService(retrofit: Retrofit): JsonPostsApi = retrofit.create(JsonPostsApi::class.java)
+private fun provideApiService(retrofit: Retrofit): JsonFilterApi = retrofit.create(JsonFilterApi::class.java)
 
 private fun ProvideRetrofit(
         okHttpClient: OkHttpClient

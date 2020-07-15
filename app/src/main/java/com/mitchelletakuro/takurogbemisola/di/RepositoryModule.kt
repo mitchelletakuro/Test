@@ -3,9 +3,7 @@ package com.mitchelletakuro.takurogbemisola.di
 import com.mitchelletakuro.takurogbemisola.data.repository.FilterRepo
 import org.koin.dsl.module
 
-/**
- * Created by manuelchris-ogar on 14/07/2020.
- */
+
 val repoModule = module {
 
 
