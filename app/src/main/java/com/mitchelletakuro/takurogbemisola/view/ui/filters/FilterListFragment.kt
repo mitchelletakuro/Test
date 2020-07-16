@@ -14,6 +14,7 @@ import com.mitchelletakuro.takurogbemisola.R
 import com.mitchelletakuro.takurogbemisola.data.models.CarOwner
 import com.mitchelletakuro.takurogbemisola.data.models.FilterModel
 import com.mitchelletakuro.takurogbemisola.view.ui.filters.adapters.OnItemClickListener
+import kotlinx.android.synthetic.main.filter_list.*
 import org.koin.android.viewmodel.ext.android.viewModel
 import timber.log.Timber
 import com.mitchelletakuro.takurogbemisola.view.ui.filters.adapters.FilterAdapter as FilterAdapter
@@ -42,18 +43,11 @@ class FilterListFragment : Fragment() {
         viewModel.getPosts()
 
 
-        filterRV = view.findViewById(R.id.filter_list)
-        filterRV.layoutManager = LinearLayoutManager(activity)
-        filterRV.setHasFixedSize(true)
 
-        filterRV.adapter = this.filters.let {
-            FilterAdapter (it, object : OnItemClickListener {
-                override fun onItemClicked(clicked: FilterModel) {
-                    findNavController().navigate(R.id.action_filterListFragment_to_carOwnerDetailsFragment,
-                        bundleOf( "filter" to clicked , "owners" to owners))
-                }
-            })
-        }
+        filter_list.layoutManager = LinearLayoutManager(activity)
+        filter_list.setHasFixedSize(true)
+        setUpObservers()
+
 
     }
 
@@ -75,6 +69,12 @@ class FilterListFragment : Fragment() {
             it?.let {
                 Timber.e(it[0].toString())
 //                show/display the list as you deem fit
+                filterRV.adapter = FilterAdapter (it, object : OnItemClickListener {
+                    override fun onItemClicked(clicked: FilterModel) {
+                        findNavController().navigate(R.id.action_filterListFragment_to_carOwnerDetailsFragment,
+                            bundleOf( "filter" to clicked , "owners" to owners))
+                    }
+                })
             }
         })
 
