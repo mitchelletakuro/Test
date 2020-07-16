@@ -20,7 +20,11 @@
         android:id="@+id/carOwnerDetailsFragment"
         android:name="com.mitchelletakuro.takurogbemisola.view.ui.car_owners.CarOwnerDetailsFragment"
         android:label="Car Owners Details"
-        tools:layout="@layout/car_owners_details"/>
+        tools:layout="@layout/car_owners_details">
+        <action
+            android:id="@+id/action_carOwnerDetailsFragment_to_filterListFragment"
+            app:destination="@id/filterListFragment" />
+    </fragment>
     <action
         android:id="@+id/action_carOwnerDetailsFragment_to_FilterFragment"
         app:destination="@id/filterListFragment"

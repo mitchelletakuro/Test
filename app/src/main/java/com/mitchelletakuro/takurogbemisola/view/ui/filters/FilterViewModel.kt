@@ -13,11 +13,9 @@ import java.lang.Exception
 class FilterViewModel(private val filterRepo: FilterRepo) : ViewModel() {
 
 
-//    this represents the data you will fetch, you can add more for the different types that this viewmodel will get
     private val _postList = MutableLiveData<List<FilterModel>>()
     val postList: LiveData<List<FilterModel>>
         get() = _postList
-
 
 
 //     you can use this to display a Progress bar

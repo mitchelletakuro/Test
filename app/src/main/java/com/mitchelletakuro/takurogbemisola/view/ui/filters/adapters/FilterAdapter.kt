@@ -1,9 +1,8 @@
-package com.mitchelletakuro.takurogbemisola.view.ui.filters
+package com.mitchelletakuro.takurogbemisola.view.ui.filters.adapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AdapterView
 import androidx.recyclerview.widget.RecyclerView
 import com.mitchelletakuro.takurogbemisola.R
 import com.mitchelletakuro.takurogbemisola.data.models.FilterModel
@@ -17,7 +16,9 @@ class FilterAdapter (
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FilterViewHolder {
         val view: View = LayoutInflater.from(parent.context)
             .inflate(R.layout.item_filter, parent, false)
-        return FilterViewHolder(view)
+        return FilterViewHolder(
+            view
+        )
     }
 
     override fun onBindViewHolder(holder: FilterViewHolder, position: Int) {

@@ -1,9 +1,11 @@
-package com.mitchelletakuro.gbemisolatakuro.ui
+package com.mitchelletakuro.takurogbemisola
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.mitchelletakuro.gbemisolatakuro.MainActivity
+import com.mitchelletakuro.takurogbemisola.MainActivity
+
+
 
 class SplashActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

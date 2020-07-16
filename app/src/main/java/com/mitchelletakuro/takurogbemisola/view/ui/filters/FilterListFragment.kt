@@ -1,43 +1,59 @@
 package com.mitchelletakuro.takurogbemisola.view.ui.filters
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.os.bundleOf
 import androidx.lifecycle.Observer
+import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.mitchelletakuro.takurogbemisola.R
-import com.mitchelletakuro.takurogbemisola.data.repository.FilterRepo
-import com.mitchelletakuro.takurogbemisola.di.repoModule
+import com.mitchelletakuro.takurogbemisola.data.models.CarOwner
+import com.mitchelletakuro.takurogbemisola.data.models.FilterModel
+import com.mitchelletakuro.takurogbemisola.view.ui.filters.adapters.OnItemClickListener
 import org.koin.android.viewmodel.ext.android.viewModel
 import timber.log.Timber
+import com.mitchelletakuro.takurogbemisola.view.ui.filters.adapters.FilterAdapter as FilterAdapter
 
-/**
- * A simple [Fragment] subclass as the default destination in the navigation.
- */
+
 class FilterListFragment : Fragment() {
 
-    val viewModel: FilterViewModel by viewModel()
+    private lateinit var filterRV: RecyclerView
+    lateinit  var filters : List<FilterModel>
+    lateinit var owners : List<CarOwner>
+
+
+
+    private val viewModel: FilterViewModel by viewModel()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.filter_list, container, false)
     }
 
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-
-//        call to fetch data
-//        viewModel.getFilter()
-
         viewModel.getPosts()
 
-        setUpObservers()
+
+        filterRV = view.findViewById(R.id.filter_list)
+        filterRV.layoutManager = LinearLayoutManager(activity)
+        filterRV.setHasFixedSize(true)
+
+        filterRV.adapter = this.filters.let {
+            FilterAdapter (it, object : OnItemClickListener {
+                override fun onItemClicked(clicked: FilterModel) {
+                    findNavController().navigate(R.id.action_filterListFragment_to_carOwnerDetailsFragment,
+                        bundleOf( "filter" to clicked , "owners" to owners))
+                }
+            })
+        }
 
     }
 

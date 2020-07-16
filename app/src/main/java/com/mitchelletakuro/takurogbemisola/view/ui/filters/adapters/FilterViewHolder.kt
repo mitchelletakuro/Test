@@ -1,8 +1,7 @@
-package com.mitchelletakuro.takurogbemisola.view.ui.filters
+package com.mitchelletakuro.takurogbemisola.view.ui.filters.adapters
 
 import android.annotation.SuppressLint
 import android.view.View
-import android.widget.AdapterView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.mitchelletakuro.takurogbemisola.R
@@ -18,7 +17,7 @@ class FilterViewHolder(itemView: View) :
 
 
     @SuppressLint("SetTextI18n")
-    fun bind(filter: FilterModel, clickListener:OnItemClickListener)
+    fun bind(filter: FilterModel, clickListener: OnItemClickListener)
     {
 
         carModelYear.text = "${filter.carModel_startYear} ${filter.carModel_endYear}"
@@ -36,5 +35,5 @@ class FilterViewHolder(itemView: View) :
 
 }
 interface OnItemClickListener{
-    fun onItemClicked(trip: FilterModel)}
+    fun onItemClicked( clicked: FilterModel)}
 
