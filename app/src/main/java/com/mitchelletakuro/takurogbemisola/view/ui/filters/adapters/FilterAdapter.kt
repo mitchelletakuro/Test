@@ -21,7 +21,6 @@ class FilterAdapter (
     }
 
     override fun onBindViewHolder(holder: FilterViewHolder, position: Int) {
-        //holder.advice.setText(advises[position])
         val filter = filters[position]
         holder.bind(filter, listener)
     }
